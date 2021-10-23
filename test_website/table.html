@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>3 Column Layout</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"> <p> <img src="public/images/bloss.jpg" alt="Сиренево-рощовые розы"> <i> <b>Blossom</b></i></p> </header>
+
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>Table</h1>
+           <table border="1">
+            <tr>
+             <th>Column 1</th>
+             <th>Column 2</th>
+             <th>Column 3</th>
+             <th>Column 4</th>
+            </tr>
+            <tr>   <td rowspan="11">Data</td> <td rowspan="5">Data</td>  <td rowspan="3">Data</td>  <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  </tr>
+            <tr>      <td rowspan="2">Data</td>  <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  </tr>
+            <tr>      <td colspan="2">Data</td>  <td>Data</td>  </tr>
+            <tr>      <td rowspan="4">Data</td>  <td rowspan="3">Data</td>  <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  </tr>
+            <tr>      <td>Data</td>  <td>Data</td>  </tr>
+            <tr>      <td colspan="2">Data</td>  <td>Data</td>  </tr>
+
+           </table>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Left heading</h3>
+       <ul>
+           <li><a href="index.html">Link to next page</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+   <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p> <img src="public/images/flow.jpg"> </p></footer>
+</div>
+</body>
+</html>
